@@ -1,0 +1,27 @@
+/* @theme ucla */
+
+@import 'default';
+
+.header-banner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #2674ae;  /* Solid color */
+    color: white;
+    font-size: 1.5em;
+    font-family: Helvetica, Arial;
+    font-weight: bold;
+    text-align: left;
+    padding: 12px;
+    margin-bottom: 20px;
+    background-image: url('logo_UCLA_white.png');
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 120px;
+    background-position: right 10px center;
+  }
+
+  img[alt$=">"] {
+    float: right;
+  } 
