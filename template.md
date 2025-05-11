@@ -6,8 +6,19 @@ paginate: true
 
 <div class="header-banner">Insert Header Here</div>
 
-- content
-- content
+- content content content
+
+## Code Block
+```python
+import numpy as np
+import matplotlib.pyplot as plt
+
+x = np.linspace(-1, 1, 100)
+plt.plot(x, 2*x)
+```
+
+## Equation
+$$E = mc^2 + \text{AI}$$
 
 <footer>Your Name Here - Date</footer>
 
